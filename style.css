@@ -1,16 +1,23 @@
 .header {
-
 }
 
-.nav {
+nav {
+    display:inline;
     width: 70%;
-    float: right;
     height: 5em;
-    margin-top: 2em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
+nav li {
+    display:inline;
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+}
 .aside {
-    height: 90%;
+    height: 95%;
     margin: 0.5em 0.5em 0.5em 0.5em;
     padding: 1em;
     width: 15%;
